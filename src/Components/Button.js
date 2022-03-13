@@ -3,9 +3,9 @@ import './Button.css'
 
 export default function Button(props) {
   return (
-    <button onClick={props.abrir} className="btn">
+    <button onClick={props.btnModal} className="btn">
       {/* <a href="#">VER MAIS</a> */}
-      VER MAIS
+      {props.nameBtn}
     </button>
   )
 }

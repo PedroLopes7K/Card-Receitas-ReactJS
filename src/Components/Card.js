@@ -41,7 +41,7 @@ export default function Card(props) {
           <p>{props.description}</p>
         </div>
       </div>
-      <Button abrir={openModal} className="button" />
+      <Button btnModal={openModal} className="button" nameBtn={'VER MAIS'} />
       {/* <button onClick={openModal}>VER MAIS</button> */}
 
       <Modal
@@ -61,9 +61,10 @@ export default function Card(props) {
           &gt; Receita {props.name}
         </a>
         <br />
-        <button className="btn" onClick={closeModal}>
+        {/* <button className="btn" onClick={closeModal}>
           CLOSE
-        </button>
+        </button> */}
+        <Button btnModal={closeModal} nameBtn={'CLOSE'} />
       </Modal>
     </div>
   )
