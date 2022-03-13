@@ -4,6 +4,7 @@ import Card from './Card'
 function App() {
   return (
     <div className="wrapper">
+      <h1>Receitas Saudáveis</h1>
       <Card
         url="https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/receitas-de-salada-de-fruta-simples.jpg"
         name="Salada De Frutas"
@@ -13,7 +14,7 @@ function App() {
       <Card
         url="https://coolicias.ao/wp-content/uploads/2019/11/Receita-Low-carb-de-Fil%C3%A9-de-Til%C3%A1pia-Grelhada-em-Cama-de-Legumes-Salteados-na-Manteiga.jpg"
         name="Tilápia Grelhada"
-        description="Além do alto valor proteico, a tilápia tem uma quantidade significativa de ômega-3, gordura boa que diminui o risco de doenças cardíacas e cardiovasculares, reduz os processos inflamatórios, ajuda no desenvolvimento cerebral e regeneração de suas células - o que faz do alimento um excelente aliado no tratamento de ansiedade, distúrbios de sono e depressão."
+        description="Além do alto valor proteico, a tilápia tem uma quantidade significativa de ômega-3, gordura boa que diminui o risco de doenças cardíacas e cardiovasculares, reduz os processos inflamatórios, ajuda no desenvolvimento cerebral e regeneração de suas células."
       />
 
       <Card

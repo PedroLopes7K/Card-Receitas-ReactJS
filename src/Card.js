@@ -8,9 +8,11 @@ export default function Card(props) {
       <div className="card-body">
         <img src={props.url} />
         <h2>{props.name}</h2>
-        <p>{props.description}</p>
+        <div className="description">
+          <p>{props.description}</p>
+        </div>
       </div>
-      <Button />
+      <Button className="button" />
     </div>
   )
 }
