@@ -7,12 +7,12 @@
   border: 3px solid cyan;
   border-radius: 5px;
   transition: all 0.7s;
-  color: rgb(50, 187, 187);
+  color: rgb(48, 131, 131);
   font-size: 19px;
   font-weight: 500;
   cursor: pointer;
 }
 .btn:hover {
   background-color: cyan;
-  color: white;
+  /* color: white; */
 }

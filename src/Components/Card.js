@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Card.css'
 import Modal from 'react-modal'
 import Button from './Button.js'
+import { Link } from 'react-router-dom'
 
 Modal.setAppElement('#root')
 
@@ -57,9 +58,12 @@ export default function Card(props) {
           Para aprender a fazer essa receita deliciosa acesse o link abaixo:
         </span>
         <br />
-        <a href={props.receita} target="_blank" rel="noreferrer">
+        {/* <a href={props.receita} target="_blank" rel="noreferrer">
           &gt; Receita {props.name}
-        </a>
+        </a> */}
+        <Link className="link" to={props.link}>
+          ACESSAR RECEITA
+        </Link>
         <br />
         {/* <button className="btn" onClick={closeModal}>
           CLOSE
