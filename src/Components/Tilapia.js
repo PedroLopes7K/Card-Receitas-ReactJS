@@ -15,8 +15,6 @@ export default function Salada() {
 
         <img src="https://coolicias.ao/wp-content/uploads/2019/11/Receita-Low-carb-de-Fil%C3%A9-de-Til%C3%A1pia-Grelhada-em-Cama-de-Legumes-Salteados-na-Manteiga.jpg" />
 
-        {/* <hr></hr> */}
-
         <h2 class="titulo2"> Ingredientes</h2>
         <ul id="Ingredientes">
           <li>4 filés de tilápia</li>
@@ -26,8 +24,6 @@ export default function Salada() {
           <li>1 cpitada de pimenta do reino</li>
           <li>1 pitada de sal</li>
         </ul>
-
-        {/* <hr></hr> */}
 
         <h2 class="titulo2"> Modo de preparo</h2>
         <ul id="Preparo">
