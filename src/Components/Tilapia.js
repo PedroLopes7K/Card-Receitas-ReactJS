@@ -56,6 +56,7 @@ export default function Salada() {
           <li>Espere esfriar totalmente para desenformar.</li>
         </ul>
       </div>
+      <Footer />
     </div>
   )
 }

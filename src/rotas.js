@@ -5,7 +5,6 @@ import Home from './Components/Home.js'
 import Tilapia from './Components/Tilapia.js'
 import Nhoque from './Components/Nhoque.js'
 import Footer from './Components/Footer.js'
-
 const Rotas = () => {
   return (
     <BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Pages.css'
-
+import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 export default function Nhoque() {
@@ -36,6 +36,7 @@ export default function Nhoque() {
           <li>Cubra com o molho de sua preferência e sirva.</li>
         </ul>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Pages.css'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 export default function Salada() {
   return (
@@ -37,6 +38,7 @@ export default function Salada() {
           <li>Sirva em seguida.</li>
         </ul>
       </div>
+      <Footer />
     </div>
   )
 }
